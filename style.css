@@ -465,6 +465,10 @@ section {
     /* 北欧モダンらしい清潔な白 */
 }
 
+#access .en {
+    color: #ccc7c7;
+}
+
 /* PC版：横並びで中央寄せ */
 .map-container {
     display: flex;
