@@ -107,6 +107,20 @@ header {
     /* ヘッダーの高さを指定 */
 }
 
+.logo {
+    margin: 0;
+}
+
+.logo a {
+    display: block;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
 .pc-nav ul {
     display: flex;
     gap: 20px;
@@ -122,8 +136,29 @@ header {
     background-color: var(--nara-terracotta);
 }
 
-.logo {
-    margin-top: 10px;
+/* --- レスポンシブ設定 --- */
+@media (max-width:1200px) {
+    .pc-nav ul {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pc-nav a span {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .pc-nav {
+        display: none;
+        /* PCメニューを隠す */
+    }
+
+    .logo a {
+        font-size: 1.8rem;
+        /* スマホではロゴを少し小さくしてバランス調整 */
+    }
 }
 
 
