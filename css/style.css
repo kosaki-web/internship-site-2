@@ -406,6 +406,21 @@ section {
     }
 }
 
+@media (max-width: 350px) {
+    .concept h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .concept h2 {
+        font-size: 1.7rem;
+    }
+}
+
+
+
+
 
 
 
@@ -483,6 +498,18 @@ section {
     font-family: 'Noto Serif JP', serif;
     font-size: 1.1rem;
     margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 320px) {
+    .product-card {
+        padding: 5px 0;
+    }
 }
 
 
