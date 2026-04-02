@@ -773,7 +773,7 @@ footer {
 
 /* ホバー時の挙動 */
 .pagetop:hover {
-    background-color: var(--accent-gold);
+    background-color: var(--nara-terracotta);
     /* 奈良らしい金茶色へ */
     transform: translateY(-5px);
 }
