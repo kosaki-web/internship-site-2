@@ -292,7 +292,7 @@ header {
     width: 100%;
     overflow: hidden;
     /* 画像の角丸からはみ出た部分を隠す */
-    margin: 50px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
 }
