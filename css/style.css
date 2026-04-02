@@ -292,7 +292,7 @@ header {
     width: 100%;
     overflow: hidden;
     /* 画像の角丸からはみ出た部分を隠す */
-    margin: 70px auto 50px;
+    margin: 50px;
     display: flex;
     align-items: center;
 }
@@ -319,6 +319,23 @@ header {
 
 .hero-content {
     display: none;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        width: min(100vw, 100vh);
+        height: min(100vw, 100vh);
+        background-image: url(../img/hero/top_image2.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .hero-img-dummy {
+        display: none;
+    }
 }
 
 
