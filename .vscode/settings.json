@@ -13,5 +13,6 @@
         "omiyage",
         "pagetop",
         "subline"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
