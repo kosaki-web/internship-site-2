@@ -418,6 +418,13 @@ section {
 }
 
 @media (max-width: 768px) {
+    .concept {
+        border-radius: 30px;
+        /* 角を丸くして動物の柔らかさを表現 */
+        margin: 50px 10px;
+        padding: 50px 0;
+    }
+
     .concept-br {
         display: inline;
     }
@@ -430,13 +437,6 @@ section {
 }
 
 @media (max-width: 320px) {
-    .concept {
-        border-radius: 30px;
-        /* 角を丸くして動物の柔らかさを表現 */
-        margin: 50px 10px;
-        padding: 50px 0;
-    }
-
     .concept h2 {
         font-size: 1.7rem;
     }
@@ -525,12 +525,6 @@ section {
 }
 
 @media (max-width: 768px) {
-    .product-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 320px) {
     #products {
         border-radius: 30px;
         /* 角を丸くして動物の柔らかさを表現 */
@@ -538,11 +532,29 @@ section {
         padding: 50px 0;
     }
 
-    .product-card {
-        padding: 5px 0;
+    .product-grid {
+        grid-template-columns: 1fr;
+        justify-content: center;
     }
 }
 
+@media (max-width: 425px) {
+    .product-card {
+        padding: 20px 0 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .product-card {
+        padding: 15px 0 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .product-card {
+        padding: 2%;
+    }
+}
 
 
 
