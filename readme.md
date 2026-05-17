@@ -7,11 +7,11 @@
 
 ## デモURL
 
-[デモサイトを見る](https://kosaki-web.github.io/internship-site-2/)
+[デモサイトを見る](https://fk-code8128.github.io/internship-site-2/)
 
 ## リポジトリ
 
-[リポジトリを見る](https://github.com/kosaki-web/internship-site-2.git)
+[リポジトリを見る](https://github.com/FK-code8128/internship-site-2.git)
 
 ## ターゲット層
 
